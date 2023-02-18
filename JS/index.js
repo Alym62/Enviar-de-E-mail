@@ -10,7 +10,7 @@ const transport = nodemailer.createTransport({
 })
 
 transport.sendMail({
-    from: 'Aly <Seu e-mail>', //Colocar o email do remetente junto do nome para não cair na caixa de spam.
+    from: 'Seu nome <Seu e-mail>', //Colocar o email do remetente junto do nome para não cair na caixa de spam.
     to: 'Para o e-mail que você quer enviar', //Emails que você queira enviar. OBS: pode ser mais de um.
     subject: 'enviando email',
     html: '<header><h1>Olá, Dev 🚀</h1></header> <main><img src="https://c4.wallpaperflare.com/wallpaper/660/584/918/anime-demon-slayer-kimetsu-no-yaiba-kimetsu-no-yaiba-tanjirou-kamado-hd-wallpaper-preview.jpg"></main> <footer><small>Fonte: Wallpaper Flare </small></footer>',
